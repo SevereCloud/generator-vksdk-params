@@ -87,7 +87,7 @@ def handler(schema, build_folder, version):
                 not_empty.append(file_name)
 
             # Комментарии
-            name_b = name_builder(method["name"]) + "Bulder"
+            name_b = name_builder(method["name"]) + "Builder"
 
             f.write('\n')
             f.write(f'// {name_b} builder\n')
@@ -152,7 +152,7 @@ def handler(schema, build_folder, version):
 
                 not_empty.append(file_name)
 
-            name_b = name_builder(method["name"]) + "Bulder"
+            name_b = name_builder(method["name"]) + "Builder"
 
             # Тест
             f.write('\n')
